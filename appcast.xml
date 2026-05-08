@@ -3,28 +3,33 @@
     <channel>
         <title>Brewy</title>
         <item>
-            <title>0.10.0</title>
-            <pubDate>Wed, 08 Apr 2026 18:19:18 +0000</pubDate>
-            <sparkle:version>14</sparkle:version>
-            <sparkle:shortVersionString>0.10.0</sparkle:shortVersionString>
+            <title>0.10.1</title>
+            <pubDate>Fri, 08 May 2026 03:19:33 +0000</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>0.10.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>What&#x27;s New</h2>
+            <description><![CDATA[<h2>Fixes</h2>
 <ul>
-  <li>add accessibility labels to status indicators and interactive elements</li>
-  <li>visual refresh across sidebar, list rows, detail pane, and empty state</li>
+  <li>use global git config in bump-cask release job</li>
+  <li>remove unsupported versioning-strategy for Swift</li>
+  <li>correctness and perf across content, detail, and services</li>
+  <li>harden CommandRunner and service state handling</li>
+  <li>export coverage from Brewy.debug.dylib, not the launcher stub</li>
 </ul>
-<h2>Fixes</h2>
+<h2>Under the Hood</h2>
 <ul>
-  <li>resolve force unwraps, stale state, and concurrent refresh issues</li>
-  <li>increase UI test timeouts to prevent flaky ASAN failures</li>
-  <li>surface fetch errors to user and skip UI tests locally</li>
-  <li>polish action bar and maintenance view layout</li>
+  <li>remove bump-cask job in favor of Homebrew autobump</li>
 </ul>
 <h2>Documentation</h2>
 <ul>
-  <li>update CLAUDE.md and README.md to reflect current codebase</li>
+  <li>refresh CLAUDE.md after model, view, CI, and test changes</li>
+</ul>
+<h2>Testing</h2>
+<ul>
+  <li>add real-subprocess tests for CommandRunner</li>
+  <li>skip Process Execution suite on GitHub Actions</li>
 </ul>]]></description>
-            <enclosure url="https://github.com/p-linnane/Brewy/releases/download/0.10.0/Brewy-0.10.0.zip" length="5551749" type="application/octet-stream" sparkle:edSignature="VaHvAW/IlIOdwyM63PrXdMaKUKDjg87klgI1mBwK9HmuPjd4L6C1uIw4v4I/EqyHZMHcIn72noZE9C+hJTh9Bw=="/>
+            <enclosure url="https://github.com/starhaven-io/Brewy/releases/download/0.10.1/Brewy-0.10.1.zip" length="5556468" type="application/octet-stream" sparkle:edSignature="EzXhwh7WeC3kC5c6ZgaFitJiun1/Dp6FbXaz+uEmXLEoLghd/WejVqGCdijbFe/Ty6AejU5ySAUd71U8bmnRBA=="/>
         </item>
     </channel>
 </rss>
