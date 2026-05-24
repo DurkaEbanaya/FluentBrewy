@@ -3,33 +3,20 @@
     <channel>
         <title>Brewy</title>
         <item>
-            <title>0.10.1</title>
-            <pubDate>Fri, 08 May 2026 03:19:33 +0000</pubDate>
-            <sparkle:version>15</sparkle:version>
-            <sparkle:shortVersionString>0.10.1</sparkle:shortVersionString>
+            <title>0.11.0</title>
+            <pubDate>Sun, 24 May 2026 03:10:18 +0000</pubDate>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>0.11.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Fixes</h2>
+            <description><![CDATA[<h2>What&#x27;s New</h2>
 <ul>
-  <li>use global git config in bump-cask release job</li>
-  <li>remove unsupported versioning-strategy for Swift</li>
-  <li>correctness and perf across content, detail, and services</li>
-  <li>harden CommandRunner and service state handling</li>
-  <li>export coverage from Brewy.debug.dylib, not the launcher stub</li>
-</ul>
-<h2>Under the Hood</h2>
-<ul>
-  <li>remove bump-cask job in favor of Homebrew autobump</li>
-</ul>
-<h2>Documentation</h2>
-<ul>
-  <li>refresh CLAUDE.md after model, view, CI, and test changes</li>
+  <li>surface new formulae/casks from brew update</li>
 </ul>
 <h2>Testing</h2>
 <ul>
-  <li>add real-subprocess tests for CommandRunner</li>
-  <li>skip Process Execution suite on GitHub Actions</li>
+  <li>make app deterministic under tests</li>
 </ul>]]></description>
-            <enclosure url="https://github.com/starhaven-io/Brewy/releases/download/0.10.1/Brewy-0.10.1.zip" length="5556468" type="application/octet-stream" sparkle:edSignature="EzXhwh7WeC3kC5c6ZgaFitJiun1/Dp6FbXaz+uEmXLEoLghd/WejVqGCdijbFe/Ty6AejU5ySAUd71U8bmnRBA=="/>
+            <enclosure url="https://github.com/starhaven-io/Brewy/releases/download/0.11.0/Brewy-0.11.0.zip" length="5571255" type="application/octet-stream" sparkle:edSignature="zF47RatKZzJcmV3JWCFcunglBxqB3R1PR5EwJ6mbnI1UPxqc5V4KqkmpXfg3zjhzFnzWK3Yxs5oiqyC5Tss8AQ=="/>
         </item>
     </channel>
 </rss>
