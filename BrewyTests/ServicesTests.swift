@@ -165,3 +165,50 @@ struct ServicesParsingTests {
         #expect(loadedNotRunning.isHealthy == false)
     }
 }
+
+// MARK: - Services Control
+
+@Suite("BrewService Services Control")
+@MainActor
+struct BrewServiceServicesControlTests {
+
+    @Test("startService issues `services start <name>` via brew")
+    func startServiceCommand() async {
+        let mock = MockCommandRunner()
+        let (service, _) = makeService(mock: mock)
+
+        _ = await service.startService("redis")
+
+        let last = mock.executedExecutables.last
+        #expect(last?.arguments == ["services", "start", "redis"])
+        #expect(last?.path.hasSuffix("brew") == true)
+    }
+
+    @Test("stopService and restartService issue the matching verbs")
+    func stopAndRestartCommands() async {
+        let mock = MockCommandRunner()
+        let (service, _) = makeService(mock: mock)
+
+        _ = await service.stopService("redis")
+        #expect(mock.executedExecutables.last?.arguments == ["services", "stop", "redis"])
+
+        _ = await service.restartService("redis")
+        #expect(mock.executedExecutables.last?.arguments == ["services", "restart", "redis"])
+    }
+
+    @Test("asSudo runs brew via osascript with administrator privileges")
+    func startServiceAsSudo() async {
+        let mock = MockCommandRunner()
+        let (service, _) = makeService(mock: mock)
+
+        _ = await service.startService("redis", asSudo: true)
+
+        // osascript -e <privileged script> <brewPath> services start redis
+        let args = mock.executedExecutables.last?.arguments ?? []
+        #expect(mock.executedExecutables.last?.path == "/usr/bin/osascript")
+        #expect(args.first == "-e")
+        #expect(args.dropFirst().first?.contains("administrator privileges") == true)
+        #expect(args.dropFirst(2).first?.hasSuffix("brew") == true)
+        #expect(Array(args.suffix(3)) == ["services", "start", "redis"])
+    }
+}
