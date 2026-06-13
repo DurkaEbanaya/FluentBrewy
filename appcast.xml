@@ -3,21 +3,17 @@
     <channel>
         <title>Brewy</title>
         <item>
-            <title>0.12.0</title>
-            <pubDate>Fri, 29 May 2026 05:25:24 +0000</pubDate>
-            <sparkle:version>17</sparkle:version>
-            <sparkle:shortVersionString>0.12.0</sparkle:shortVersionString>
+            <title>0.12.1</title>
+            <pubDate>Sat, 13 Jun 2026 15:39:04 +0000</pubDate>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>0.12.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>What&#x27;s New</h2>
+            <description><![CDATA[<h2>Fixes</h2>
 <ul>
-  <li>add dependency tree and first-pass review fixes</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-  <li>correctness and performance fixes from code review</li>
-  <li>lifecycle and parsing polish from review</li>
+  <li>preserve cached package data when a brew fetch fails</li>
+  <li>run privileged brew services only from a standard Homebrew path</li>
 </ul>]]></description>
-            <enclosure url="https://github.com/starhaven-io/Brewy/releases/download/0.12.0/Brewy-0.12.0.zip" length="5590569" type="application/octet-stream" sparkle:edSignature="aP07dS4FeCPXCbvePyOIZjthJ/S8kN/I2Pdl3UIYiDejF8w++KqIDM+06G2pcgpKOs7tCVZR+PFvj9TUZnMYAA=="/>
+            <enclosure url="https://github.com/starhaven-io/Brewy/releases/download/0.12.1/Brewy-0.12.1.zip" length="5593622" type="application/octet-stream" sparkle:edSignature="ZuXMvhfRkKOh++50cd2NAmQ7ojlvo4/KhoVCEp2myOUV+2x4V9bZqbLszmrxYoBuxyVC85OWOnx28tExE91TDQ=="/>
         </item>
     </channel>
 </rss>
