@@ -29,10 +29,8 @@ final class SidebarNavigationUITests: XCTestCase {
             "History", "Discover", "Maintenance"
         ]
 
-        let sidebar = app.outlines.firstMatch
-
         for (index, category) in categories.enumerated() {
-            let row = sidebar.staticTexts[category]
+            let row = app.buttons[category]
             let timeout = index == 0 ? Self.launchTimeout : Self.elementTimeout
             XCTAssertTrue(
                 row.waitForExistence(timeout: timeout),
@@ -44,9 +42,6 @@ final class SidebarNavigationUITests: XCTestCase {
     }
 
     func testSidebarContainsAllCategories() throws {
-        let sidebar = app.outlines.firstMatch
-        XCTAssertTrue(sidebar.waitForExistence(timeout: Self.launchTimeout), "Sidebar should exist")
-
         let expectedCategories = [
             "Installed", "Formulae", "Casks", "Mac App Store", "Outdated",
             "Pinned", "Leaves", "Taps", "Services", "Groups",
@@ -55,7 +50,7 @@ final class SidebarNavigationUITests: XCTestCase {
 
         for category in expectedCategories {
             XCTAssertTrue(
-                sidebar.staticTexts[category].exists,
+                app.buttons[category].waitForExistence(timeout: Self.launchTimeout),
                 "Sidebar should contain '\(category)' category"
             )
         }
@@ -64,14 +59,12 @@ final class SidebarNavigationUITests: XCTestCase {
     // MARK: - Maintenance View (Regression: Layout Constraints)
 
     func testMaintenanceViewTransition() throws {
-        let sidebar = app.outlines.firstMatch
-
-        let installed = sidebar.staticTexts["Installed"]
+        let installed = app.buttons["Installed"]
         XCTAssertTrue(installed.waitForExistence(timeout: Self.launchTimeout))
         installed.click()
         RunLoop.current.run(until: Date(timeIntervalSinceNow: 0.5))
 
-        let maintenance = sidebar.staticTexts["Maintenance"]
+        let maintenance = app.buttons["Maintenance"]
         maintenance.click()
         RunLoop.current.run(until: Date(timeIntervalSinceNow: 0.5))
 

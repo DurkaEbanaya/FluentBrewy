@@ -107,6 +107,7 @@ private struct SidebarButton: View {
             .contentShape(Rectangle())
         }
         .buttonStyle(.plain)
+        .accessibilityIdentifier(category.rawValue)
         .background(
             isSelected ? Color.fluentAccent : Color.clear,
             in: .rect(cornerRadius: 0)
