@@ -108,8 +108,7 @@ jobs:
             CODE_SIGN_STYLE=Manual \
             CODE_SIGN_IDENTITY="Developer ID Application" \
             DEVELOPMENT_TEAM="${DEVELOPMENT_TEAM}" \
-            SWIFT_TREAT_WARNINGS_AS_ERRORS=YES \
-            EXCLUDED_ARCHS=x86_64
+            SWIFT_TREAT_WARNINGS_AS_ERRORS=YES
 
       - name: Export
         run: |

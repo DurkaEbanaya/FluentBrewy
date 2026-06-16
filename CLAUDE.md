@@ -4,7 +4,7 @@ Brewy is a native macOS GUI for managing Homebrew packages, written in Swift/Swi
 
 ## Project overview
 
-- **Platform:** macOS 15.0+ (Apple Silicon), built with Xcode 16+
+- **Platform:** macOS 15.0+ (Apple Silicon and Intel), built with Xcode 16+
 - **Language:** Swift, SwiftUI (100%)
 - **Architecture:** MVVM using `@Observable` and SwiftUI Environment injection
 - **Only external dependency:** Sparkle via Swift Package Manager for auto-updates
