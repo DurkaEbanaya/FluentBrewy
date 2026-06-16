@@ -27,7 +27,7 @@ A native macOS app for managing [Homebrew](https://brew.sh) packages. Browse, se
 - Russian/English language switcher in Settings
 - Auto-updates via Sparkle
 
-![Brewy demo](assets/BrewyDemo.gif)
+![FluentBrewy screenshot](assets/FluentBrewyScreenshot.png)
 
 ## Requirements
 
