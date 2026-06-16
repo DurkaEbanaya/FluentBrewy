@@ -41,6 +41,7 @@ struct BrewyApp: App {
                 .environment(brewService)
                 .environment(\.locale, preferredLocale)
                 .preferredColorScheme(preferredColorScheme ?? systemColorScheme)
+                .background(WindowTransparencySetup())
         }
         .windowStyle(.automatic)
         .defaultSize(width: 960, height: 640)
@@ -119,6 +120,34 @@ private struct CheckForUpdatesView: View {
     var body: some View {
         Button("Check for Updates…", action: updater.checkForUpdates)
             .disabled(!viewModel.canCheckForUpdates)
+    }
+}
+
+// MARK: - Window Transparency Setup
+
+/// Makes the main window transparent so that the sidebar can show a true
+/// Windows 10-style .behindWindow acrylic blur of the desktop behind the app.
+private struct WindowTransparencySetup: NSViewRepresentable {
+    func makeNSView(context: Context) -> NSView {
+        WindowConfiguratorView()
+    }
+
+    func updateNSView(_ nsView: NSView, context: Context) {}
+}
+
+private final class WindowConfiguratorView: NSView {
+    override func viewDidMoveToWindow() {
+        super.viewDidMoveToWindow()
+        configureWindow()
+    }
+
+    private func configureWindow() {
+        guard let window else { return }
+        window.isOpaque = false
+        window.backgroundColor = .clear
+        // Keep the system title bar available; only the content area is clear
+        // so the sidebar's .behindWindow material can sample the desktop.
+        window.titlebarAppearsTransparent = false
     }
 }
 
