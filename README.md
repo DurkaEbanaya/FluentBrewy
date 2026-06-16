@@ -29,7 +29,7 @@ A native macOS app for managing [Homebrew](https://brew.sh) packages. Browse, se
 
 ## Requirements
 
-- macOS 15.0 or later (Apple Silicon or Intel)
+- macOS 14.0 or later (Apple Silicon or Intel)
 - [Homebrew](https://brew.sh) installed (defaults to `/opt/homebrew/bin/brew` on Apple Silicon, `/usr/local/bin/brew` on Intel; configurable in Settings)
 
 ## Installation

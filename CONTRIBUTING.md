@@ -4,7 +4,7 @@ Thanks for your interest in improving Brewy! This document captures the workflow
 
 ## Requirements
 
-- macOS 15.0 or later (Apple Silicon or Intel)
+- macOS 14.0 or later (Apple Silicon or Intel)
 - Xcode 16 or later
 - [Homebrew](https://brew.sh) — the app shells out to `brew`
 - [`just`](https://github.com/casey/just) for the local task runner (`brew install just`)
