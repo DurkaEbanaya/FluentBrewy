@@ -128,6 +128,10 @@ enum SidebarCategory: String, CaseIterable, Identifiable {
 
     var id: String { rawValue }
 
+    var localizedName: String {
+        String(localized: String.LocalizationValue(rawValue))
+    }
+
     var systemImage: String {
         switch self {
         case .installed: "shippingbox.fill"

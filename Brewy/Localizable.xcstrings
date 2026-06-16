@@ -1,0 +1,2646 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "Packages": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Пакеты",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Management": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Управление",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Tools": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Инструменты",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Brewy": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Brewy",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Refresh": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Обновить",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Just now": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Только что",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "1 min ago": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "1 мин назад",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "%d min ago": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "%d мин назад",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "1 hour ago": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "1 час назад",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "%d hours ago": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "%d часов назад",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Installed": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Установленные",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Formulae": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Формулы",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Casks": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Каски",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Mac App Store": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Mac App Store",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Outdated": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Устаревшие",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Pinned": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Закреплённые",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Leaves": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Листья",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Taps": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Тапы",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Services": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Службы",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Groups": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Группы",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "History": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "История",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Discover": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Поиск",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Maintenance": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Обслуживание",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Homebrew Path:": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Путь к Homebrew:",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Path to the brew executable": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Путь к исполняемому файлу brew",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "No executable found at this path.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Исполняемый файл не найден по этому пути.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Auto-refresh:": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Автообновление:",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Off": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Выкл.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Every 5 minutes": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Каждые 5 минут",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Every 15 minutes": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Каждые 15 минут",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Every hour": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Каждый час",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Appearance:": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Тема:",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "System": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Системная",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Light": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Светлая",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Dark": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Тёмная",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Show Casks by default": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Показывать каски по умолчанию",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Language:": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Язык:",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "English": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "English",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Русский": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Русский",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Open Brewy": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Открыть Brewy",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Quit Brewy": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Выйти из Brewy",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "All packages up to date": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Все пакеты актуальны",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Upgrade All": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Обновить всё",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Refresh Packages": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Обновить пакеты",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Cleanup...": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Очистка...",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "What's New": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Что нового",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Check for Updates…": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Проверить обновления…",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Install": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Установить",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Uninstall": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Удалить",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Upgrade": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Обновить",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Reinstall": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Переустановить",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Pin": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Закрепить",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Unpin": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Открепить",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Fetch": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Загрузить",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Link": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Связать",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Unlink": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Отвязать",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Отмена",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Add": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Добавить",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Create": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Создать",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Save": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Сохранить",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Edit": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Изменить",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Delete": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Удалить",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Retry": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Повторить",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Done": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Готово",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "OK": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "OK",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Yes": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Да",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "No": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Нет",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Actions": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Действия",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Select": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Выбрать",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Start": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Запустить",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Stop": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Остановить",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Restart": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Перезапустить",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Cleanup": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Очистить",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Loading...": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Загрузка...",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Running...": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Выполнение...",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Error": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Ошибка",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Success": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Успешно",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Failed": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Ошибка",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Succeeded": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Успешно",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Unknown": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Неизвестно",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Running": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Запущено",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Stopped": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Остановлено",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Scheduled": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Запланировано",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Loaded": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Загружено",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Name": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Название",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Remote": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Удалённый репозиторий",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Official": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Официальный",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Status": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Статус",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "PID": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "PID",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Exit Code": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Код выхода",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "User": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Пользователь",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Service Name": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Имя службы",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Service Info": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Информация о службе",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Plist": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Plist",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Log": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Лог",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Error Log": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Лог ошибок",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Paths": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Пути",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Output": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Вывод",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Command": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Команда",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Time": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Время",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Package": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Пакет",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Type": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Тип",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Action Info": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Информация о действии",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "No output": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Нет вывода",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Run as root (sudo)": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Запускать от root (sudo)",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Remove stale service files": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Удалить устаревшие файлы служб",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Tap Info": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Информация о тапе",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Installed Formulae": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Установленные формулы",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Installed Casks": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Установленные каски",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Add Tap": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Добавить тап",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Enter the tap name (e.g. gromgit/fuse).": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Введите имя тапа (например, gromgit/fuse).",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "user/repo": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "пользователь/репо",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Tap name must be in user/repo format.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Имя тапа должно быть в формате пользователь/репо.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Adding %@...": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Добавление %@...",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Remove Tap": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Удалить тап",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Migrate Tap": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Перенести тап",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Migrate": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Перенести",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Migrate to %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Перенести в %@",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "View new repository": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Открыть новый репозиторий",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "This will remove %@ and re-add it as %@. Any local changes to this tap will be lost.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Это удалит %@ и добавит его заново как %@. Любые локальные изменения будут потеряны.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "This tap's repository has been archived and will no longer receive updates. Consider removing it.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Репозиторий этого тапа заархивирован и больше не будет получать обновления. Рассмотрите возможность удаления.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "This tap's repository has moved to %@.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Репозиторий этого тапа переехал на %@.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "This tap's repository has moved.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Репозиторий этого тапа переехал.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "This tap's repository could not be found on GitHub. It may have been deleted.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Репозиторий этого тапа не найден на GitHub. Возможно, он был удалён.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "archived": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "заархивирован",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "moved": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "переехал",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "not found": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "не найден",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "official": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "официальный",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Tap status: %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Статус тапа: %@",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "All Packages": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Все пакеты",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Installed Only": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Только установленные",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Search packages...": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Поиск пакетов...",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Loading packages...": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Загрузка пакетов...",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Search Homebrew": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Поиск в Homebrew",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Type a package name to search all of Homebrew.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Введите название пакета для поиска во всём Homebrew.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "No Packages": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Нет пакетов",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "No packages found in this category.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "В этой категории пакетов не найдено.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Upgrade (%d)": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Обновить (%d)",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Select a Package": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Выберите пакет",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Choose a package from the list to view its details.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Выберите пакет из списка, чтобы просмотреть его детали.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "%d packages": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "%d пакетов",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "formula": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "формула",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "cask": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "каска",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "mas": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "mas",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Update Available": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Доступно обновление",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Version %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Версия %@",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Homepage": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Сайт",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "App Store": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "App Store",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Managed via Mac App Store": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Управляется через Mac App Store",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Formula": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Формула",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Cask": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Каска",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Details": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Детали",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Installed Version": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Установленная версия",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Latest Version": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Последняя версия",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Installed on Request": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Установлено по запросу",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Dependencies": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Зависимости",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Brew Info": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Информация brew",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Uninstall %@?": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Удалить %@?",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "This will remove %@ from your system. This action cannot be undone.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Это удалит %@ с вашей системы. Это действие нельзя отменить.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Reinstall %@?": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Переустановить %@?",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "This will remove and reinstall %@. Your data and configuration will be preserved.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Это удалит и переустановит %@. Ваши данные и настройки будут сохранены.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Link %@?": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Связать %@?",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "This will symlink %@ into Homebrew's prefix.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Это создаст символическую ссылку %@ в префиксе Homebrew.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Unlink %@?": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Отвязать %@?",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "This will remove symlinks for %@ from Homebrew's prefix.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Это удалит символические ссылки для %@ из префикса Homebrew.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Dependency Tree": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Дерево зависимостей",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Pulled in by": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Используется в",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Pulls in": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Зависит от",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Installed packages that depend on %@, recursively up to the user-requested install.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Установленные пакеты, которые зависят от %@, рекурсивно до запрошенных пользователем.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "What %@ depends on, recursively.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "От чего зависит %@, рекурсивно.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "requested": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "по запросу",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Already shown above in this chain": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Уже показано выше в этой цепочке",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Go to %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Перейти к %@",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "%@ (not installed)": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "%@ (не установлено)",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Installed on request by the user": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Установлено по запросу пользователя",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Health Check": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Проверка здоровья",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Run brew doctor": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Запустить brew doctor",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Your system is ready to brew.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Ваша система готова к работе с brew.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Checks your system for potential problems with Homebrew.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Проверяет систему на наличие потенциальных проблем с Homebrew.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Orphaned Packages": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Осиротевшие пакеты",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Remove Orphans": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Удалить осиротевшие",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Removes packages that were installed as dependencies but are no longer needed.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Удаляет пакеты, установленные как зависимости, но которые больше не нужны.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Download Cache": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Кэш загрузок",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Clear Cache": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Очистить кэш",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Removes cached package downloads and old versions.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Удаляет загруженные пакеты и старые версии из кэша.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Update Homebrew": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Обновить Homebrew",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Homebrew version": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Версия Homebrew",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Homebrew/brew last updated": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Homebrew/brew обновлён",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Homebrew/core last updated": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Homebrew/core обновлён",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Homebrew/cask last updated": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Homebrew/cask обновлён",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Fetches the newest version of Homebrew and all formulae, casks, and taps from GitHub.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Загружает новейшую версию Homebrew и все формулы, каски и тапы из GitHub.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "New since %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Новое с %@",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "New Formulae": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Новые формулы",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "New Casks": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Новые каски",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Newly available packages from the last brew update.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Новые доступные пакеты из последнего обновления brew.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Remove Orphaned Packages?": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Удалить осиротевшие пакеты?",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "The following packages were installed as dependencies but are no longer needed.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Следующие пакеты были установлены как зависимости, но больше не нужны.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Clear Download Cache?": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Очистить кэш загрузок?",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "The following cached downloads and old versions will be removed.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Следующие загруженные файлы и старые версии будут удалены.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Loading preview…": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Загрузка предпросмотра…",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "No specific files listed. The operation may still free up space.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Конкретные файлы не указаны. Операция всё равно может освободить место.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "No Groups": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Нет групп",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Create groups to organize your packages into custom collections.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Создайте группы, чтобы организовать пакеты в собственные коллекции.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "New Group": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Новая группа",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Create a new group": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Создать новую группу"
+          }
+        }
+      }
+    },
+    "Delete Group": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Удалить группу",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Group name": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Название группы",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Icon": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Иконка",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Create a group to organize your packages.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Создайте группу для организации пакетов.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Edit Group": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Изменить группу",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Delete %@?": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Удалить %@?",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "This will delete the group. Your packages will not be affected.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Это удалит группу. Ваши пакеты не будут затронуты.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Add packages to this group from the package detail view.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Добавляйте пакеты в эту группу из детального вида пакета.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Upgrade Outdated in Group": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Обновить устаревшие в группе",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Go to Package": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Перейти к пакету",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Remove from Group": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Удалить из группы",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "No History": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Нет истории",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Actions you perform will appear here.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Здесь будут отображаться выполненные действия.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Clear History": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Очистить историю",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Clear all history": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Очистить всю историю",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Select an Action": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Выберите действие",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Choose an action from the history to view its details.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Выберите действие из истории, чтобы просмотреть его детали.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Re-runs the same command: %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Повторно выполняет ту же команду: %@",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "No Services": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Нет служб",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "No Homebrew services found. Install a formula that provides a service to get started.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Службы Homebrew не найдены. Установите формулу, предоставляющую службу.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Cleanup failed": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Очистка не удалась",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Select a Service": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Выберите службу",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Choose a service from the list to view its details and controls.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Выберите службу из списка, чтобы просмотреть её детали и управление.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Command failed": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Команда не выполнена",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Find New Packages": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Найти новые пакеты",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Search all of Homebrew to discover and install formulae and casks.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Ищите во всём Homebrew, чтобы находить и устанавливать формулы и каски.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Search all of Homebrew...": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Поиск во всём Homebrew...",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Searching...": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Поиск...",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Search to find new packages": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Найдите новые пакеты",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "%d results": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "%d результатов",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Mac App Store CLI Not Installed": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "CLI Mac App Store не установлен",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Brewy uses mas to manage Mac App Store apps. Install it via Homebrew to browse and view your App Store apps here.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Brewy использует mas для управления приложениями Mac App Store. Установите его через Homebrew, чтобы просматривать приложения.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Install mas": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Установить mas",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Learn more about mas": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Узнать больше о mas",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Loading release notes…": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Загрузка заметок о выпуске…",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "No update feed configured.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Лента обновлений не настроена.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Failed to load release notes.\nPlease check your internet connection.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Не удалось загрузить заметки о выпуске.\nПроверьте подключение к интернету.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "No release notes found.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Заметки о выпуске не найдены.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Failed to load release notes.\n%@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Не удалось загрузить заметки о выпуске.\n%@",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Select a Group": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Выберите группу",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Choose a group from the list to view its packages.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Выберите группу из списка, чтобы просмотреть её пакеты.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Select a Tap": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Выберите тап",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Choose a tap from the list to view its details.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Выберите тап из списка, чтобы просмотреть его детали.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Last refreshed %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Последнее обновление %@",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "just now": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "только что",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "⌘R to refresh  ·  ⌘U to upgrade all": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "⌘R — обновить  ·  ⌘U — обновить всё",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "No Taps": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Нет тапов",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "No third-party taps are installed.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Сторонние тапы не установлены.",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Loading taps...": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Загрузка тапов...",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Add a new tap": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Добавить новый тап"
+          }
+        }
+      }
+    },
+    "Loading services…": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Загрузка служб…",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Add a new group": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Добавить новую группу"
+          }
+        }
+      }
+    },
+    "Help": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Помощь",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "New Item": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Новый элемент",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "App Info": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "О приложении",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "File": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Файл",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "View": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Вид",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "Window": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "value": "Окно",
+            "state": "translated"
+          }
+        }
+      }
+    },
+    "%d package(s) outdated": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d устаревший пакет"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

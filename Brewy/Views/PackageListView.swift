@@ -126,7 +126,7 @@ struct PackageListView: View {
     }
 
     private var navigationTitle: String {
-        selectedCategory?.rawValue ?? "Packages"
+        selectedCategory?.localizedName ?? String(localized: "Packages")
     }
 
     @ViewBuilder private var emptyContent: some View {

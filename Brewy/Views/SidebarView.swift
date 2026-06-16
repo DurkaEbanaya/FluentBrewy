@@ -1,32 +1,39 @@
 import SwiftUI
+import AppKit
 
 struct SidebarView: View {
     @Binding var selectedCategory: SidebarCategory?
 
     var body: some View {
         List(selection: $selectedCategory) {
-            Section("Packages") {
+            Section(String(localized: "Packages")) {
                 ForEach(SidebarCategory.packageCategories) { category in
                     SidebarRow(category: category)
                         .tag(category)
+                        .fluentSidebarRow()
                 }
             }
-            Section("Management") {
+            Section(String(localized: "Management")) {
                 ForEach(SidebarCategory.managementCategories) { category in
                     SidebarRow(category: category)
                         .tag(category)
+                        .fluentSidebarRow()
                 }
             }
-            Section("Tools") {
+            Section(String(localized: "Tools")) {
                 ForEach(SidebarCategory.toolCategories) { category in
                     SidebarRow(category: category)
                         .tag(category)
+                        .fluentSidebarRow()
                 }
             }
         }
         .listStyle(.sidebar)
+        .scrollContentBackground(.hidden)
+        .fluentAcrylicBackground(cornerRadius: 0)
         .safeAreaInset(edge: .bottom, spacing: 0) {
             SidebarFooter()
+                .fluentAcrylicBackground(cornerRadius: 0)
         }
         .navigationTitle("Brewy")
     }
@@ -42,7 +49,7 @@ private struct SidebarRow: View {
     var body: some View {
         Label {
             HStack {
-                Text(category.rawValue)
+                Text(category.localizedName)
                 Spacer()
                 if let count {
                     Text("\(count)")
@@ -52,8 +59,9 @@ private struct SidebarRow: View {
                 }
             }
         } icon: {
-            Image(systemName: category.systemImage)
+            Image(systemName: category.fluentSystemImage)
                 .foregroundStyle(iconColor)
+                .font(.system(size: 16, weight: .regular))
         }
     }
 
@@ -127,11 +135,11 @@ private struct SidebarFooter: View {
 
     private static func relativeTime(since date: Date) -> String {
         let minutes = Int(Date().timeIntervalSince(date) / 60)
-        if minutes < 1 { return "Just now" }
-        if minutes == 1 { return "1 min ago" }
-        if minutes < 60 { return "\(minutes) min ago" }
+        if minutes < 1 { return String(localized: "Just now") }
+        if minutes == 1 { return String(localized: "1 min ago") }
+        if minutes < 60 { return String(format: String(localized: "%d min ago"), minutes) }
         let hours = minutes / 60
-        if hours == 1 { return "1 hour ago" }
-        return "\(hours) hours ago"
+        if hours == 1 { return String(localized: "1 hour ago") }
+        return String(format: String(localized: "%d hours ago"), hours)
     }
 }

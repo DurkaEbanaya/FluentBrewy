@@ -13,6 +13,8 @@ struct BrewyApp: App {
 
     @AppStorage("appTheme")
     private var appTheme = AppTheme.system.rawValue
+    @AppStorage("appLanguage")
+    private var appLanguage = AppLanguage.system.rawValue
 
     // HACK: there is a known color scheme bug in SwiftUI where passing `nil` to `.preferredColorScheme`
     // doesn't change the color of some elements:
@@ -29,10 +31,15 @@ struct BrewyApp: App {
         AppTheme(rawValue: appTheme)?.colorScheme
     }
 
+    private var preferredLocale: Locale {
+        AppLanguage(rawValue: appLanguage)?.locale ?? Locale.current
+    }
+
     var body: some Scene {
         WindowGroup(id: "main") {
             ContentView()
                 .environment(brewService)
+                .environment(\.locale, preferredLocale)
                 .preferredColorScheme(preferredColorScheme ?? systemColorScheme)
         }
         .windowStyle(.automatic)
@@ -79,6 +86,7 @@ struct BrewyApp: App {
                 systemImage: count > 0 ? "mug.fill" : "mug"
             )
         }
+        .environment(\.locale, preferredLocale)
     }
 }
 
@@ -126,7 +134,7 @@ private struct MenuBarView: View {
         let outdatedCount = brewService.outdatedPackages.count
 
         if outdatedCount > 0 {
-            Text("\(outdatedCount) package\(outdatedCount == 1 ? "" : "s") outdated")
+            Text(String(format: String(localized: "%d package(s) outdated"), outdatedCount))
             Divider()
             Button("Upgrade All") {
                 Task { await brewService.upgradeAll() }

@@ -232,11 +232,11 @@ private struct EmptyStateView: View {
 
     private static func relativeTime(since date: Date) -> String {
         let minutes = Int(Date().timeIntervalSince(date) / 60)
-        if minutes < 1 { return "just now" }
-        if minutes == 1 { return "1 min ago" }
-        if minutes < 60 { return "\(minutes) min ago" }
+        if minutes < 1 { return String(localized: "just now") }
+        if minutes == 1 { return String(localized: "1 min ago") }
+        if minutes < 60 { return String(format: String(localized: "%d min ago"), minutes) }
         let hours = minutes / 60
-        if hours == 1 { return "1 hour ago" }
-        return "\(hours) hours ago"
+        if hours == 1 { return String(localized: "1 hour ago") }
+        return String(format: String(localized: "%d hours ago"), hours)
     }
 }

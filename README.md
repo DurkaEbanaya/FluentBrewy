@@ -23,6 +23,8 @@ A native macOS app for managing [Homebrew](https://brew.sh) packages. Browse, se
 - Menu bar extra showing outdated package count
 - Configurable auto-refresh interval and brew path
 - Light, dark, and system theme support
+- Windows 10-style Fluent sidebar with Acrylic material and square corners
+- Russian/English language switcher in Settings
 - Auto-updates via Sparkle
 
 ![Brewy demo](assets/BrewyDemo.gif)

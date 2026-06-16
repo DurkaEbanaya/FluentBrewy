@@ -256,7 +256,7 @@ private struct GroupPackageRow: View {
         switch package.source {
         case .formula: "terminal"
         case .cask: "macwindow"
-        case .mas: "app.badge.fill"
+        case .mas: "bag"
         }
     }
 

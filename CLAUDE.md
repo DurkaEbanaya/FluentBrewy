@@ -221,7 +221,8 @@ mas install ID                               # Install Mac App Store app
 - Custom package groups: create, edit, delete groups and organize packages into them
 - Action history: records all brew actions with retry support for failed commands
 - Dry-run previews for autoremove and cleanup before executing
-- Configurable brew path, auto-refresh interval, theme (light/dark/system)
+- Configurable brew path, auto-refresh interval, theme (light/dark/system), and language (English/Russian)
+- Windows 10-style Fluent sidebar with Acrylic material and square corners
 - Tap health monitoring: detects archived, moved, and missing tap repositories via GitHub API
 - Tap migration: one-click migrate to a tap's new URL when it has moved
 - "What's New" view parsing Sparkle appcast XML

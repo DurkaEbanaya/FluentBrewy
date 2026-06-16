@@ -87,9 +87,9 @@ private struct PackageHeader: View {
 
     private var headerIcon: String {
         switch package.source {
-        case .formula: "terminal.fill"
+        case .formula: "terminal"
         case .cask: "macwindow"
-        case .mas: "app.badge.fill"
+        case .mas: "bag"
         }
     }
 

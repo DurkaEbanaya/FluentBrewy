@@ -74,7 +74,7 @@ struct ConsoleOutput: View {
             .textSelection(.enabled)
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding(padding)
-            .background(.quaternary.opacity(0.5), in: .rect(cornerRadius: 8))
+            .background(.quaternary.opacity(0.5), in: .rect(cornerRadius: 0))
         if let maxHeight {
             ScrollView { content }.frame(maxHeight: maxHeight)
         } else {
@@ -107,7 +107,7 @@ struct ActionOverlay: View {
         }
         .padding(24)
         .frame(maxWidth: 400)
-        .background(.regularMaterial, in: .rect(cornerRadius: 16))
+        .background(.regularMaterial, in: .rect(cornerRadius: 0))
         .shadow(radius: 20, y: 10)
     }
 }

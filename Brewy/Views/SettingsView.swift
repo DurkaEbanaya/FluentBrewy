@@ -16,6 +16,24 @@ enum AppTheme: String, CaseIterable, Identifiable {
     }
 }
 
+enum AppLanguage: String, CaseIterable, Identifiable {
+    case system = "System"
+    case english = "English"
+    case russian = "Русский"
+
+    var id: String { rawValue }
+
+    var locale: Locale {
+        switch self {
+        case .system: return Locale.current
+        case .english: return Locale(identifier: "en")
+        case .russian: return Locale(identifier: "ru")
+        }
+    }
+
+    var displayName: String { rawValue }
+}
+
 struct SettingsView: View {
     @AppStorage("brewPath")
     private var brewPath = "/opt/homebrew/bin/brew"
@@ -25,6 +43,8 @@ struct SettingsView: View {
     private var showCasksByDefault = false
     @AppStorage("appTheme")
     private var appTheme = AppTheme.system.rawValue
+    @AppStorage("appLanguage")
+    private var appLanguage = AppLanguage.system.rawValue
 
     private var isBrewPathValid: Bool {
         FileManager.default.isExecutableFile(atPath: brewPath)
@@ -53,10 +73,16 @@ struct SettingsView: View {
                 }
             }
 
+            Picker("Language:", selection: $appLanguage) {
+                ForEach(AppLanguage.allCases) { language in
+                    Text(language.displayName).tag(language.rawValue)
+                }
+            }
+
             Toggle("Show Casks by default", isOn: $showCasksByDefault)
         }
         .formStyle(.grouped)
         .padding()
-        .frame(width: 450, height: 230)
+        .frame(width: 450, height: 260)
     }
 }
